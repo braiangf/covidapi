@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informacion covid</title>
+    <link rel="stylesheet" href="apicorona.css">
+</head>
+
+<body>
+    <div>
+
+        <h1> Informacion del covid 19 de uruguay</h1>
+
+        <b> Fecha</b> <input id="inputFecha" type="date" /><br>
+        <b> Pais</b>
+        <select id="selectPaís">
+            <option value="Uruguay"> Uruguay</option>
+        </select>
+        <br />
+        <button id="btnestadisticas">Estadisticas</button>
+        <br />
+        <ul>
+            <li>Confirmados nuevos: <span id="NewConfirmed"></span> </li>
+            <li>Total confirmados: <span id="TotalConfirmed"></span> </li>
+            <li>Muertes nuevas: <span id="NewDeaths"></span></li>
+            <li>Muertes totales: <span id="TotalDeaths"></span></li>
+        </ul>
+
+    </div>
+
+    <script src="apicorona.js"></script>
+</body>
+
+</html>
